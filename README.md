@@ -1,4 +1,4 @@
-# chanyang-e-zine
+# chaoyang-e-zine
 
 #朝阳区电子杂志页面设计
 
