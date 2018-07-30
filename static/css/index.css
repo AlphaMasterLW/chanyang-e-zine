@@ -1,0 +1,105 @@
+html{
+    height: 100%;
+}
+
+body {
+    word-wrap: break-word;
+    word-break: break-all;
+    background: #e9e7e8;
+    min-height: 100%;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.header {
+    height: 93px;
+    background: url('../images/common/background.png') no-repeat 0 0;
+    background-size: 100% 93px;
+}
+
+.logoBox {
+    top: 5px;
+    position: absolute;
+    width: 132px;
+    height: 135px;
+    background: #fff;
+    z-index: 100;
+    text-align: center;
+    padding: 10px 18px;
+    line-height: 3;
+}
+
+.logoBox .title{
+    width: 100%;
+}
+
+/* banner */
+.banner{
+    margin-top: -4px;
+    position: relative;
+}
+
+.banner .item{
+    height: 428px;
+}
+
+.banner .item1{
+    background: url('../images/one_level/banner1.png') no-repeat top center;
+}
+
+.banner .item2{
+    background: url('../images/one_level/banner2.png') no-repeat top center;
+}
+
+.banner .item3{
+    background: url('../images/one_level/banner3.png') no-repeat top center;
+}
+
+.banner-title{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.choice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    margin-bottom:20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.choice .cy_news,.choice .cy_news:hover{
+    padding: 7px 11px;
+    background: #fff;
+    box-shadow: #999 1px 1px 10px;
+    color: #555;
+    text-decoration-line: none;
+}
+
+
+.choice img{
+    width: 411px;
+    height: 262px;
+    border: 1px solid #c1c1c1
+}
+
+/* 底部 */
+.footer {
+    width: 100%;
+    background: #24262b;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.company {
+    padding-right: 50px;
+}

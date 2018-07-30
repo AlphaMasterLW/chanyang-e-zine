@@ -1,0 +1,90 @@
+
+html{
+    height: 100%;
+}
+
+body {
+    word-wrap: break-word;
+    word-break: break-all;
+    min-height: 100%;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.header {
+    height: 107px;
+    background:url('../images/common/background.png') no-repeat 0 0;
+    background-size: 100% 93px;
+    padding-top: 2px;
+}
+
+.header-bg{
+    background: #fff;
+    margin-top: 4px;
+    height: 105px;
+}
+
+.logo-img{
+    margin-top: 10px;
+}
+
+.logo-title{
+    width: 154px;
+    height: 42px;
+    margin-top: 15px;
+}
+
+.logo-text{
+    position: absolute;
+    top: 50px;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+/* banner */
+.banner{
+    margin-top: -4px;
+    background: url('../images/two_level/banner.png') no-repeat top center;
+    height: 394px;
+}
+
+.search{
+    padding: 10px 0;
+}
+
+button{
+    outline: none;
+}
+
+.bookBox{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.bookItem{
+    width: 174px;
+    margin: 20px;
+}
+
+
+
+/* 底部 */
+.footer {
+    width: 100%;
+    background: #24262b;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.company {
+    padding-right: 50px;
+}
